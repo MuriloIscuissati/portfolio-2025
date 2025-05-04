@@ -17,7 +17,7 @@
     
     <style>
         
-        ul{
+        .menu{
             
             display: flex;
             flex-direction: row;
@@ -27,14 +27,14 @@
             justify-content: center;
         }
 
-        ul li{
+        .menu li{
            
             background-color: #E07A5F;
             margin-right: 10px;
 
         }
         
-        ul li a{
+        .menu li a{
 
             text-decoration: none;
             color: #F1E3D3;
@@ -52,7 +52,7 @@
 
         }
 
-        ul li a:hover {
+        .menu li a:hover {
             
             background-color: #3D0301;
 
@@ -80,6 +80,11 @@
             font-weight: 400;
             font-style: normal;
         }
+
+        .imagens{
+            height: 100px;
+            width: 100;
+        }
     
     </style>
 </head>
@@ -87,7 +92,7 @@
     
     <h1>Projetos</h1>
 
-    <ul>
+    <ul class="menu">
 
         <li><a href="index.html">Home</a></li>
         <li><a href="sobremim.html">Sobre Mim</a></li>
@@ -97,10 +102,27 @@
 
     <p class="texto_principal">Estes são os projetos que desenvolvi durante a disciplina: </p>
 
-    <a href="">Portfólio pessoal</a>
-    <a href="">Menu</a>
-    <a href="">Lista de Compras</a>
-    <a href="">Listas</a>
+    <p class="texto_principal">Portfólio Pessoal</p>
+    <ul>
+            <li><a href="https://github.com/MuriloIscuissati/portfolio-2025/blob/main/index.html">Home</a></li>
+            <div ><img class="imagens" src="home.png" alt="Home"></div>
+
+            <li><a href="https://github.com/MuriloIscuissati/portfolio-2025/blob/main/sobremim.html">Sobre Mim</a></li>
+            <div><img class="imagens" src="sobremim.png" alt="Sobre Mim"></div>
+
+            <li><a href="https://github.com/MuriloIscuissati/portfolio-2025/blob/main/projetos.html">Projetos</a></li>
+            <div><img class="imagens" src="projetos.png" alt="Projetos"></div>
+        </li>
+    </ul>
+        
+    <p class="texto_principal">Exercícios de Sala</p>
+    <ul>
+        <li><a href="https://github.com/MuriloIscuissati/portfolio-2025/blob/main/listadecompras.html">Lista de Compras</a></li>
+        <div><img class="imagens" src="listadecompras.png" alt="Lista de Compras"></div>
+
+        <li><a href="https://github.com/MuriloIscuissati/portfolio-2025/blob/main/listas.html">Listas</a></li>
+        <div><img class="imagens" src="listas.png" alt="Listas"></div>
+    </ul>
 
 </body>
 </html>
